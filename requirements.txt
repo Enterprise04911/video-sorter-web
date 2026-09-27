@@ -1,0 +1,9 @@
+# 运行本项目完全不需要任何第三方库（纯 Python 标准库实现）
+# 下面只有打包 EXE 时需要安装：
+
+# --- 打包 EXE 才需要（可选）---
+# pyinstaller>=6.0
+
+# 提示：
+# 如果你只运行源码：不需要 pip install 任何东西
+# 如果你想自己打 EXE：pip install pyinstaller

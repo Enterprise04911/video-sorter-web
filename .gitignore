@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller 构建产物
+build/dist/
+dist/
+*.spec
+
+# 用户数据（关键！绝不能提交到 git）
+config.json
+.video_sorter/
+videosorter.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地测试目录名
+/test_downloads/
+/test_library/
